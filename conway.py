@@ -9,7 +9,7 @@ w,h = size().width,size().height
 # w,h = 500,500
 screen = display.set_mode((w,h))
 fps_cap = 0
-recording = 1
+recording = 0
 
 display.set_caption("Conway's Game Of Life")
 clock = time.Clock()
